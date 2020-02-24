@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#wrap{
+  width: 100%;
+}
+div.container{
+  width:75%;
+  margin:0 12.5%;
+}
+nav ul{
+  margin-bottom:0;
+}
+nav li{
+  padding:15px 25px;
+  font-family: 'Roboto';
+}
+nav a{
+  color:black;
+}
+#content1{
+  background: url(../img/1234.png) no-repeat;
+  background-size: contain ;
+  background-image: linear-gradient(135deg, #ffc955 0%, rgba(255, 93, 98, 0.8) 100%);
+  width: 100%;
+  height:700px;
+  /* height:1000px; */
+  position:relative;
+  /* border: solid 3px red; */
+}
+.svg-border-waves{
+  width: 100%;
+  height:700px;
+  position: relative;
+}
+.svg-border-waves svg{
+  position: absolute;
+  bottom:0;
+}
+
+#content2{
+  /* border:5px solid; */
+}
+#footer{
+  /* border: solid 3px red; */
+  height: 200px;
+  background-color: #f5f5f5;
+}
+i {
+  vertical-align: middle;
+  padding:80px;
+  padding-top:70px;
+  padding-bottom: 3px;
+  }
+  .btn-info{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+.image-uploading{
+  border: solid 30px white;
+  position:absolute;
+  top:250px;
+  right:400px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0,0,0,.10196);
+  box-sizing: border-box;
+  }
+.content2-1{
+  height: 500px;
+  border-bottom: 1px solid #D0D0CE;
+}
+.content2-2{
+  position:relative;
+  height: 500px;
+  text-align: center;
+}
+.text2-1{
+  margin-bottom: 50px;
+  font:32px 'Ubuntu';
+  font-weight: bolder;
+  color: #3F4443;
+}
+.paneltext{
+  display: inline-block;
+  text-align: center;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img2-2{
+  width: 300px;
+  height: 250px;
+}
+.zxc{
+  position:absolute;
+  top:0;
+  left:0;
+  display: inline-block;
+  padding: 100px;
+  /* border: solid 3px red; */
+  font:32px 'Ubuntu';
+  font-weight: bolder;
+  color: #3F4443;
+}
+.panel{
+  position:absolute;
+  top:20px;
+  right:0;
+  display: inline-block;
+  padding:50px;
+  /* border: solid 3px red; */
+  text-align: center;
+}
+.inspiration-panel{
+  /* border: solid 3px red; */
+  margin: 0 3.6%;
+  display: inline-block;
+}
+ul, li, h1{
+  display: inline;
+}
+/* h2{
+  margin-bottom: : 40px;
+} */
+body{
+  margin:none;
+}
+* {
+  margin:0;
+  padding:0;
+}
+.navbar{
+  box-shadow: 0 0 40px rgba(0,0,0,.10196)
+}
+.cotent1_inner_tx{
+  font:40px 'Fredoka One';
+  font-weight: lighter;
+  position: absolute;
+
+  top:200px;
+  left:200px;
+}
+.footer-text{
+  /* border: solid 3px red; */
+  text-align: center;
+  padding-top: 90px;
+  color: #707372;
+}
