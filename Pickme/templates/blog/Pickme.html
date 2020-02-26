@@ -18,7 +18,7 @@
         <div class="container">
           <a class="navbar-brand" href="home.html">PickMe</a>
           <ul calss ="navbar_ul">
-            <li><a href="#">How to use</a></li>
+            <li><a href="{% url 'edit' %}">How to use</a></li>
             <li><a href="#">team</a></li>
             <li><a href="{% url 'edit' %}"><button class="btn btn-sm btn-outline-secondary" type="button">  Remove object</button></a></li>
           </ul>
@@ -34,7 +34,7 @@
         <span style="font-size: 4em; color: #D9D9D6; ">
           <i class="fas fa-image"></i><br>
         </span>
-        <a href="edit.html"><button type="button" class="btn btn-info">Upload Image</button></a>
+        <a href="{% url 'edit' %}"><button type="button" class="btn btn-info">Upload Image</button></a>
       </div>
 
 
