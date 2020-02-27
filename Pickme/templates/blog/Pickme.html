@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{% static 'css/pickme.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 
-    <link rel= "stylesheet" href="mediaqueries.css">
+    <!-- <link rel= "stylesheet" href="mediaqueries.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
   <body>
@@ -19,7 +19,7 @@
           <a class="navbar-brand" href="home.html">PickMe</a>
           <ul calss ="navbar_ul">
             <li><a href="{% url 'edit' %}">How to use</a></li>
-            <li><a href="#">team</a></li>
+            <li><a href="{% url 'base' %}">team</a></li>
             <li><a href="{% url 'edit' %}"><button class="btn btn-sm btn-outline-secondary" type="button">  Remove object</button></a></li>
           </ul>
         </div>
