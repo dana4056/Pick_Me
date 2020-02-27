@@ -40,24 +40,6 @@
     <!---content1------------------------------>
     <div id = "content1">
       <div class="container">
-        <div class="frame">
-         <div class="center">
-             <div class="title">
-                  <h2>Drop file to upload</h2>
-             </div>
-             <div class="dropzone">
-                  <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
-                  <form method="post" enctype="multipart/form-data">
-                    {% csrf_token %}
-                    <input type="file" class="upload-input" name="documnet">
-             </div>
-             <button type="button" class="btn" name="uploadbutton">Upload file</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    <!-- <div id = "content1">
-      <div class="container">
         <h2>Upload</h2>
         <form method="post" enctype="multipart/form-data">
           {% csrf_token %}
@@ -65,9 +47,25 @@
           <button type="submit">Upload file</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <!---content2------------------------------->
+    <!-- <div class="frame">
+       <div class="center">
+           <div class="title">
+                <h2>Drop file to upload</h2>
+           </div>
 
+             <div class="dropzone">
+                  <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
+                  <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="file" class="upload-input" />
+             </div>
+
+               <button type="button" class="btn" name="uploadbutton">Upload file</button>
+
+       </div>
+    </div> -->
 
     <!---footer---------------------------------->
     <div id = "footer">
