@@ -8,6 +8,7 @@ def post_list(request):
 def home(request):
     return render(request, 'blog/Pickme.html', {})
 
+
 def edit(request):
     if request.method =='POST':
         uploaded_file = request.FILES['document']
