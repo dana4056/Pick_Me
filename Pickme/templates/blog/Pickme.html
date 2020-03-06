@@ -35,14 +35,6 @@
     <div id = "content1">
       <div class="container">
         <h2 class = "cotent1_inner_tx">Remove object<br> Using "Deep Learning"</h2>
-      <!-- image upload하는 공간 -->
-        <!-- <div class="image-uploading" style="display:inline-block;">
-          <span style="font-size: 4em; color: #D9D9D6; ">
-            <i class="fas fa-image"></i><br>
-          </span>
-          <a href="{% url 'edit' %}"><button type="button" class="btn btn-info">Upload Image</button></a>
-        </div> -->
-        <!-- <div class="frame"> -->
          <div class="center">
              <div class="title">
                   <h2>Drop file to upload</h2>
@@ -50,7 +42,7 @@
              <div class="dropzone">
                <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
                   <form method="post" enctype="multipart/form-data">
-                    <!-- {% csrf_token %} -->
+                    {% csrf_token %}
                     <input type="file" class="upload-input" name="document">
                     <button type="submit" class="btn" name="uploadbutton">Upload file</button>
                   </form>
@@ -133,12 +125,7 @@
     </div>
   </div>
 
-    <!--user icon in two different styles-->
-    <!-- <i class="fas fa-user"></i>
-    <i class="far fa-user"></i>
-    <i class="fal fa-user"></i> -->
-    <!--brand icon-->
-    <!-- <i class="fab fa-github-square"></i> -->
+
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
