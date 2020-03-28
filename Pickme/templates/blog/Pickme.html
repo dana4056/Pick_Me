@@ -3,12 +3,12 @@
 <html >
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PickMe</title>
-    <!-- <link rel="stylesheet" href="{% static 'css/pickme.css' %}"> -->
+    <link rel= "stylesheet" href="{% static 'css/mediaqueries.css' %}">
     <link rel="stylesheet" href="{% static 'css/pickme.css' %}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 
-    <link rel= "stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- - -->
 
@@ -35,6 +35,10 @@
     <div id = "content1">
       <div class="container">
         <h2 class = "cotent1_inner_tx">Remove object<br> Using "Deep Learning"</h2>
+        <img class="B1" src= "{% static 'img/B1.png' %}">
+
+        <img class="B3" src= "{% static 'img/B3.png' %}">
+        <img class="arrow" src= "{% static 'img/arrow.png' %}">
          <div class="center">
              <div class="title">
                   <h2>Drop file to upload</h2>
@@ -44,7 +48,7 @@
                   <form method="post" enctype="multipart/form-data">
                     {% csrf_token %}
                     <input type="file" class="upload-input" name="document">
-                    <button type="submit" class="btn" name="uploadbutton">Upload file</button>
+                    <a href="{% url 'edit' %}"><button type="submit" class="btn" name="uploadbutton">Upload file</button></a>
                   </form>
             </div>
 

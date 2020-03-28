@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700,300');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
 
 #wrap{
   width: 100%;
@@ -40,6 +41,33 @@ nav.navbar{
   height:700px;
   position:relative;
   }
+.B1{
+  width:20%;
+  position:absolute;
+  top:380px;
+  left:90px;
+  transform: rotate(-10deg);
+  z-index: 1;
+  box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.arrow{
+  width:7%;
+  position:absolute;
+  top:290px;
+  left:345px;
+  transform: rotate(5deg);
+  z-index: 0;
+}
+.B3{
+  width:20%;
+  position:absolute;
+  top:380px;
+  left:400px;
+  transform: rotate(5deg);
+  z-index: 2;
+  box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+}
 .frame {
 	position: absolute;
 	top: 50%;
@@ -59,11 +87,11 @@ nav.navbar{
 
 .center {
 
-  width: 18.75%;
+  width: 300px;
   /* height: 37.85%; */
 	position: absolute;
 	top: 50%;
-	right: 10%;
+	right: 7%;
 	transform: translate(-50%, -50%);
 
 
@@ -80,7 +108,7 @@ nav.navbar{
 }
 .title h2{
   font-weight: 100;
-  font-size: 1.9vw;
+  font-size: 32px;
 
 	color: #bdbdbd;
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -140,7 +168,7 @@ form button.btn {
 	border: 0.5px solid #bdbdbd;
 	box-shadow: 0 3px 0 0 white;
 	/* transition: all 0.3s ease-in-out; */
-	font-size: 0.9vw;
+	font-size: 14px;
   margin-top:90%;
 	padding:0;
   /* margin-bottom: 20px; */
@@ -203,6 +231,15 @@ i {
   right: 0;
   bottom:0;
   margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inspiration-panel{
+
+  width:16.75%;
+  margin: 0 3.6%;
+  display: inline-block;
 }
 /* .content2-2{
   height: 500px;
@@ -256,12 +293,7 @@ img{
   padding:0;
   text-align: center;
 }
-.inspiration-panel{
 
-  width:16.75%;
-  margin: 0 3.6%;
-  display: inline-block;
-}
 ul, li, h1{
   display: inline;
 }
@@ -281,7 +313,7 @@ body{
   font-weight:1000;
   position: absolute;
   color: #ffffff;
-  top:200px;
+  top:160px;
   left:200px;
 }
 .footer-text{
@@ -327,35 +359,47 @@ body{
   margin:0 auto;
   background-color: white;
 }
-
-/* #team_content1 svg{  position:absolute;}
-#team_content1 svg.svg1{
-  top:0;
-  left:0;
-  width:30%;
+.team_card img{
+  display: inline;
 }
-#team_content1 svg.svg2{
-  top:30%;
-  right:10%;
-  width:40%;
+.team_card_text i{
+  padding:5px;
+}
+.email{
+  margin-bottom: 10px;
+}
+.team_pr{
+  width: 800px;
+  margin: 50px auto;
+}
+.team_card_o{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 30px;
+  margin: 50px ;
+  border-bottom: 1px solid gray;
+}
+.team_card_e{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  padding-bottom: 30px;
+  margin:50px ;
+  border-bottom: 1px solid gray;
+}
+div.team_card_text{
+  display:inline-block;
+  margin:0 60px;
+  font-family: 'Baloo Chettan 2';
+}
+/* .team_card_text h4{
+  font-size: 24px;
 } */
-.dana_contain{
-  border:1px red solid;
-  width:300px;
-  position:relative;
+.team_card_text h6{
+  color: #00788D;
 }
-.dana{
-  position:absolute;
-  top:60px;
-  left: 60px;
-  border:1px red solid;
-  width:80px;
-  margin-bottom: 30px;
-  background-color: white;
-}
-
-/* .soft-triangle-shape-0{
-  position:absolute;
-  top:0;
-  left:0;
-} */

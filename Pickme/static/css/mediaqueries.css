@@ -1,0 +1,12 @@
+/* 모바일 용 */
+@media all and (min-width:760px){
+
+}
+/* 태블릿 용 */
+@media all and (min-width:960px or max-width:1200px){
+
+}
+/* PC 용 */
+@media all and (min-width:1200px){
+
+}
